@@ -1,0 +1,48 @@
+<html>
+<head>
+<title> Bouncing clouds</title>
+<style>
+.img{
+	position:relative;
+}
+
+#bigcloud{
+animation-name:bobble;
+animation-duration:5s;
+animation-iteration-count:infinite;
+}
+
+@keyframes bobble{
+0%{
+
+	left:40px;
+	top:300px;
+	animation-timing-function:ease-in;
+}
+50%{
+	left:40px;
+	top:500px;
+	animation-timing-function:ease-out;
+}
+100%{
+	left:200px;
+	top:40px;
+	animation-timing-function:ease-in;
+}
+}
+</style>
+</head>
+
+<body>
+<center>
+	<h1> Assignment-02 :Bouncing cloud animation </h1>
+	<img id="bigcloud" alt="image not supported " class="img"
+height="154" src="bigcloud.png" width="238">
+
+</center>
+</body>
+
+</html>
+	
+		
+		
